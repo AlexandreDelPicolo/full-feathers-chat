@@ -7,6 +7,13 @@
     "max": 50
   },
   "authentication": {
+    "oauth": {
+      "redirect": "/",
+      "github": {
+        "key": "6737c43dc3af0d3c9e36",
+        "secret": "69128919051c99925a8623fde237d465cccea33a"
+      }
+    },
     "entity": "user",
     "service": "users",
     "secret": "ELpTryGZnOjAAUD1HESLM5PIV5Y=",
