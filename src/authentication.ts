@@ -27,6 +27,7 @@ class GitHubStrategy extends OAuthStrategy {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default function (app: Application) {
   const authentication = new AuthenticationService(app);
 

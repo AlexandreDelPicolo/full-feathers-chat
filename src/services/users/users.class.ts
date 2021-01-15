@@ -26,10 +26,12 @@ interface UserData {
 }
 
 export class Users extends Service<UserData> {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   constructor(options: Partial<NedbServiceOptions>, app: Application) {
     super(options);
   }
 
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   create(data: UserData, params?: Params) {
     // This is the information we want from the user signup data
     const { email, password, githubId, name } = data;
